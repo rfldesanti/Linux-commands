@@ -1,0 +1,12 @@
+
+[comando] [[-opções]] = ação do comando
+
+cp [nome do arquivo] [nome do arquivo novo] = copia [nome do arquivo] em [nome do arquivo novo]
+
+mv [nome do arquivo] [novo nome do arquivo] = renomeia o arquivo
+
+mv [nome do arquivo] [nome do diretório destino] = move arquivo para o diretório destino
+
+mv [nome do arquivo] [nome do diretório destino]/[novo nome do arquivo] = move arquivo para o diretório destino e altera o nome do arquivo
+
+cp -r [diretório para mover] [diretório destino] = copia o conteúdo do diretório para o diretório de destino

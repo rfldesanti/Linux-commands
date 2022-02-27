@@ -1,0 +1,11 @@
+Native tools of compress-archive on Manjaro Linux 5.15.16-1
+tar
+bsdtar
+bsdcpio
+ar
+bzip2
+gzip
+lz4
+xz
+zstd
+7z

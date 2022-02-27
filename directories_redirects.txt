@@ -1,0 +1,14 @@
+
+[comando] [[-opção]] = ação do comando
+
+cd [diretório] = muda para o diretório especificado
+
+echo [texto] >> [arquivo] = concatena o texto com o conteúdo já existente no arquivo
+
+cd .. = volta para o diretório anterior
+
+mkdir [nome] = cria um diretório
+
+cd = vai para o diretório home
+
+cd / = vai para o diretório raiz do sistema

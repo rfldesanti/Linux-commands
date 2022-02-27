@@ -1,0 +1,16 @@
+
+[comando] [[-opções]] = ação do comando
+
+rmdir [nome do diretório] = remove diretório //esse comando elimina apenas DIRETÓRIOS VAZIOS
+
+rm [nome do arquivo] = remove arquivo
+
+cat [nome do arquivo]?[.txt] = lê qualquer arquivo que possuir [nome do arquivo no nome] e algum único caractere antes de [.txt]
+
+cat [nome do arquivo]*[.txt] = lê qualquer arquivo que possuir qualquer número de caracteresantes de [.txt]
+
+cat *[.txt] = lê qualquer arquivo que seja [.txt]
+
+rm -r = remove recursivamente um diretório (recursivamente porque ele vai apagando um por umdos arquivos existentes no diretório, até remover o próprio diretório).
+
+

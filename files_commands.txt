@@ -1,0 +1,28 @@
+
+[comando] [[-opção]] = [ação que o comando realiza]
+
+pwd = descobrir qual é o diretório atual
+
+ls = listar arquivos que estão no diretório
+
+echo [qualquer texto] = exibe texto digitado na tela
+
+echo ["qualquet texto"] > [nome_do_arquivo_para_redirecionar_o_texto] = cria ou
+altera o arquivo informado com o texto digitado no comando
+
+cat [arquivo] = exibe o conteúdo do arquivo
+
+clear = limpa a tela
+
+ls -l = lista o conteúdo do diretório com informaçóes como:
+
+	- permissões
+	- usuários e grupos de usuários
+	- tamanho do arquivo
+	- última data de atualização
+
+ls -la = lista o conteúdo do diretório, inclusive arquivos ocultos(-a é de "all")
+
+man [algum comando\programa] = abre o manual\documentação do comando
+
+

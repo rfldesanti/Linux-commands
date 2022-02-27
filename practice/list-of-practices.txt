@@ -1,0 +1,13 @@
+
+Crie um arquivo e copie-o
+
+Crie um arquivo e renomeie-o
+
+Crie um arquivo, um diretório e mova o arquivo para o diretório
+
+Crie um arquivo, um diretório e mova o arquivo para o diretório, renomeando o arquivo
+
+Crie um diretório, coloque um arquivo nele e copie esse diretório para outro diretório.
+
+
+

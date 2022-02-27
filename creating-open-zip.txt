@@ -1,0 +1,19 @@
+
+
+[comando] [[-ações]] = ação do comando
+
+zip [novo nome do arquivo compactado] [arquivo a ser compactado] = compacta arquivo a ser compactado com o nome nome do arquivo
+
+unzip -l [nome do arquivo compactado] = exibe arquivos dentro do arquivo compactado
+
+zip -r [novo nome do arquivo compactado] [aquivo a ser compactado] = compacta diretório nãovazio (recursivamente)
+
+unzip [nome do arquivo compactado] = descompacta arquivo
+
+zip -rq [novo nome do arquivo compactado] [arquivo a  ser compactado] = compacta arquivo sem as mensagens de descompactação
+
+unzip -q [nome do arquivo compactado] = descompacta arquivo sem as mensagens de descompactação
+
+
+
+
