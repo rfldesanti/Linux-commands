@@ -9,5 +9,13 @@ Crie um arquivo, um diretório e mova o arquivo para o diretório, renomeando o 
 
 Crie um diretório, coloque um arquivo nele e copie esse diretório para outro diretório.
 
+Crie um arquivo e compacte-o utilizando gzip.
 
+Crie um arquivo e compacte-o utilizando gzip, porém mantendo o arquivo original disponível.
+
+Crie um diretório e 4 arquivos dentro do diretório. Compacte os arquivos de uma só vez utilizando gzip.
+
+Crie um arquivo, compacte-o e descompacte-o utilizando gzip e gunzip.
+
+Crie um diretório e 4 arquivos compactados dentro do diretório. Descompacte os arquivos de uma só vez utilizando gzip ou gunzip.
 
