@@ -1,0 +1,11 @@
+[comando] [[-opções do comando]] = [ações do comando]
+
+head [nome do arquivo] = exibe as 10 primeiras linhas do arquivo
+
+head -n [qualquer número] [nome do arquivo] = exibe as [qualquer número] primeiras linhas do arquivo
+
+tail [nome do arquivo] = exibe as 10 últimas linhas do arquivo
+
+tail -n [qualquer número] [nome do arquivo] = exibe as [qualquer número] últimas linhas do arquivo
+
+less [nome do arquivo] = abre o arquivo para leitura

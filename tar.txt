@@ -1,0 +1,15 @@
+[comando] [[-opções]] = [ação que o comando realiza]
+
+tar é um programa que compacta arquivos
+
+tar -cz [diretório a ser compactado] > [nome do novo arquivo compactado] = compacta e zip arquivos ou diretórios
+
+tar -xz < [nome do arquivo compactado] = descompacta e descomprime o arquivo
+
+tar -czf [nome do novo arquivo compactado] [nome do arquivo a ser compactado] = compacta o arquivo sem utilizar redirecionamento
+
+tar -xzf [nome do arquivo compactado] = descompacta e descomprime arquivo sem utilizar redirecionamento
+
+tar -vxzf [nome do arquivo compactado] = descompacta e descomprime o arquivo sme utilizar redirecionamento e com verbosidade
+
+tar -cjf [nome do novo arquivo compactado].bz2 [nome do arquivo a ser compactado] = compacta e comprime os arquivos no formato bzip2.

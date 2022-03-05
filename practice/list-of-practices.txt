@@ -1,4 +1,6 @@
 
+**************************************BASICS***********************************************
+
 Crie um arquivo e copie-o
 
 Crie um arquivo e renomeie-o
@@ -9,6 +11,8 @@ Crie um arquivo, um diretório e mova o arquivo para o diretório, renomeando o 
 
 Crie um diretório, coloque um arquivo nele e copie esse diretório para outro diretório.
 
+***************************************GZIP**************************************************
+
 Crie um arquivo e compacte-o utilizando gzip.
 
 Crie um arquivo e compacte-o utilizando gzip, porém mantendo o arquivo original disponível.
@@ -18,4 +22,58 @@ Crie um diretório e 4 arquivos dentro do diretório. Compacte os arquivos de um
 Crie um arquivo, compacte-o e descompacte-o utilizando gzip e gunzip.
 
 Crie um diretório e 4 arquivos compactados dentro do diretório. Descompacte os arquivos de uma só vez utilizando gzip ou gunzip.
+
+****************************************TAR***************************************************
+
+Crie um diretório com diretórios e arquivos dentro dele. Compacte e comprima o diretório com a ferramenta tar com redirecionamento.
+
+Crie um diretório com diretórios e arquivos dentro dele. Compacte e comprima o diretório com a ferramenta tar e o descompate-o também com tar com redirecionamento.
+
+Crie um diretório com diretórios e arquivos dentro dele. Compacte e comprima o diretório com a ferramenta tar sem redirecionamento.
+
+Crie um diretório com diretórios e arquivos dentro dele. Compacte e comprima o diretório com a ferramenta tar e o descompate-o também com tar sem redirecionamento.
+
+Crie um diretório com diretórios e arquivos dentro dele. Compacte e comprima o diretório com a ferramenta tar, porém comprimindo no formato bzip2.
+
+****************************************HEAD*TAIL**********************************************
+
+Selecione um arquivo e exiba no terminal suas 10 primeiras linhas.
+
+Selecione um arquivo e exiba no terminal suas n primeiras linhas.
+
+Selecione um arquivo e exiba no terminal suas 10 últimas linhas.
+
+Selecione um arquivo e exiba no terminal suas n últimas linhas.
+
+********************************VIM********************************************
+
+Abra um documento de texto e faça o seguinte:
+
+Insira um caractere na posição seguinte à do cursor.
+
+Remova um caractere.
+
+Remova uma sequencia de 5 caracteres
+
+Remova uma sequencia de n caracteres
+
+Remova uma linha inteira
+
+Remova 10 linhas
+
+Vá para o final de alguma linha aleatória
+
+Vá para a última linha do documento
+
+Vá para a primeira linha do documento
+
+Selecione uma linha aleatória e vá para o final dela
+
+Selecione uma linha aleatória e vá para o final dela. Depois, para o início dela
+
+Busque por alguma palavra no documento
+
+Busque por alguma palavra no documento e encontre as próximas ocorrências dessa mesma palavra
+
+Copie uma linha e cole-a em algum local do documento
 

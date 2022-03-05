@@ -1,0 +1,45 @@
+[comando] [[-opções]] = [ação que o comando realiza]
+
+vim [nome do arquivo] = abre o arquivo
+
+-------DENTRO-DO-VIM-------------
+
+i = edita o documento
+
+esc = sair do modo de edição
+
+:w = salvar o arquivo
+
+:q = sair do editor vim
+
+a = edita o documento, posicionando cursor na letra seguinte à do cursor
+
+[fora do modo de edição] x = remove um caractere
+
+[fora do modo de edição] [n] x = remove [n] caracteres de uma só vez
+
+[fora do modo de edição] dd = remove uma linha inteira
+
+[fora do modo de edição] A('a' maiúsculo) = edita o documento, posicionando cursor no final da linha
+
+[fora do modo de edição] G('g' maiúsculo) = vai para a última linha
+
+[fora do modo de edição] [n]G('g' maiúsculo) = vai para a [n] linha
+
+[fora do modo de edição] $ = vai para o final da linha atual
+
+[fora do modo de edição] 0 = vai para o primeiro caractere da linha
+
+[fora do modo de edição] /[padrão de busca] = busca padrão no documento
+
+[fora do modo de edição] /[padrão de busca] + ENTER + n = próximas ocorrências do padrão no documento
+
+[fora do modo de edição] /[padrão de busca] + ENTER + N = ocorrências anteriores dopadrão no documento
+
+[fora do modo de edição] yy = copia uma linha
+
+[fora do modo de edição] p = cola linha copiada
+
+[fora do modo de edição] [n] yy = copia [n] linhas
+
+[fora do modo de edição] [n] p = cola [n] vezes o que foi copiado
