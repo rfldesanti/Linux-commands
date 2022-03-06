@@ -1,0 +1,21 @@
+Rust commands
+ 
+rustup doc = open the browser with the offline documentation
+
+rustc --version = verifies the version of Rust
+
+rustc [filename].rs = compile
+
+cargo new [new cargo project name] = creates a folder with [name]
+
+cargo build(do it inside a Cargo's folder project) = creates an executable file in target/debug/hello_cargo
+
+cargo run = compile the code and run the executable in one command.
+
+cargo check = checks the code to assure the compilation, but does not create an executable.
+
+Crate is a collection of Rust source code files. It can be a binary crate(an executable), a library crate, etc...
+
+If you want an external crate, you must put it on the Cargo.toml file.
+
+cargo doc --opn = opens documentation on the browser to read about all dependenciesof our project. Then, it's possible to finde methods and functions to each dependencie
