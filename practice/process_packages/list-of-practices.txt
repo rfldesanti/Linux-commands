@@ -1,0 +1,29 @@
+-------------------------PROCESS-AND-PROGRAMS-------------------------------
+
+---------------------------------kill-top-------------------------
+
+Show all the process running on the system at this moment
+
+Kill a process
+
+Show the process running with extra informations
+
+Filter a especific process
+
+Show especific details about the process running related to CPU and memory usage
+
+-------------------------------jobs-bg-fg-pstree----------------------
+
+Show all the process running on system in tree format
+
+Start a process into a terminal and stops it
+
+Verify what process are stopped in the system
+
+Starts the stopped process again, but in the background
+
+Stop the process and bring it to the foreground
+
+Close the process
+
+Starts a process on a terminal, but directly in the background
