@@ -1,0 +1,15 @@
+[command] [[-options]] = [command action]
+
+pstree = show all the process running on system in a tree visualization format
+
+[with a process running on a terminal] Ctrl + Z = stops the process
+
+jobs = show the process running or stopped in the background
+
+bg [n] = sends the process number [n] to the background, making it starts again; (by default, always use the last process in the stack).
+
+fg [n] = sends the process number [n] to the foreground, making the terminal stucks.(by deafault, fg always sends to the foreground the last process in th stack)
+
+[with a process running on a terminal] Ctrl + C = kills the process that was stucking the terminal
+
+[process name] & = stars the process on the terminal, but directly in the background

@@ -16,3 +16,7 @@ ps -ef | grep [pattern] = filter the output of ps -e to show only the process th
 
 top = show the situation of the process in terms of usage of CPU and memory in real time
 
+kllall [command name] = kills every command with the [command name]
+
+
+
