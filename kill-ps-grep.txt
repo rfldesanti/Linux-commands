@@ -1,0 +1,18 @@
+[command] [[-options]] = [output of the command]
+
+Every command that we invoke on the terminal it is on execution by your CPU.
+
+ps = show the process on execution at the moment
+
+ps -e = all process running on the system at the moment
+
+kill [PID] = kills the process of the PID
+
+kill -9 [PID] = kills definitely the process
+
+ps -ef = show a lot of information about process running
+
+ps -ef | grep [pattern] = filter the output of ps -e to show only the process that contains the patter informed
+
+top = show the situation of the process in terms of usage of CPU and memory in real time
+
