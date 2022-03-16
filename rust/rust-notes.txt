@@ -6,13 +6,17 @@ Data types, as String, have methods and functions associated to them
 
 In Rust, variables are immutable by default.
 
-Referenes are also immutables bu default.
+References are also immutables bu default.
 
 A variable can be mutable if the word "mut" were used.
 
-read_line() reads a value from imput, but also returns a type
+read_line() reads a value from imput, but also returns a type, the "Return" type.
 
-Result types are enumerations(enums), which can have a fixed set of possibilities know as variants.
+Result types are enumerations(enums), which can have a fixed set of possibilities, known as variants.
+
+The Return type can return an Ok type - which has the value of the kind accepted by the method(an integer or String) - or the Err type, that means that the value cannot be used and must be hadled.
+
+In a very wide usage of enums Result types, a decision is made with the returned value(Ok or Err) with the match conditional.
 
 In some cases, the Result type have the purpose of encode error-handling information.
 
@@ -20,10 +24,74 @@ Results's variantes are Ok or Err. Ok = successful, wiht the value inside Ok. Er
 
 If the Result is Ok, than the value expected is send to te program; else, using the expect() method, the error is hadled by the method.
 
-Ordering = a type, a enum, which has the Less, Greater and Equal variants. It's is used to compare values, and it is called with the "use std::cmp:Ordering"
+Ordering = a type, a enum, which has the Less, Greater and Equal variants. It is used to compare values, and it is called with the "use std::cmp:Ordering"
 
 cmp(like in guess.cmp(&secret_number)) = method compare, in which yo can compare two things. It returns a Ordering type.
 
 match = expression that decides what to do next based on some return
 
-A match expression is made up of arms. An arm consists of a pattern to match against and the code that should be run if the value given to match fits that arm's pattern.
+RUST HAS A STRONG STATIC TYPE SYSTEM, but it has TYPE INFERENCE TOO. :)
+
+--------------------------Variables--and--Mutability--------------------------
+
+Again: RUST VARIABLES ARE IMMUTABLE. BUT...
+(...THERE IS ALWAYS A BUT...)
+..."YOU STILL HAVE THE OPTION TO MAKE YOUR VARIABLES MUTABLE."!
+
+Constants are values that are bound to a name and are not allowed to change - but you can't use MUT, BECAUSE CONSTANTS ARE EXACTLY WHAT THEY ARE: IMMUTABLE. To declare a constant, use "const" keyword and annote, necessarily, the type of the constant.
+
+Constants value can only be constant expression, never a value computed at the runtime.
+
+Shadowing: declare a variable with a name used before in the program. We can use 'let' to reassign a value to the variable and use the variable with another value inside a different scope.
+
+'mut' keyword do not allow us to change the type of the variable, just the value! In this case, shadowing the variable is the better choice, since we can change the type and keep the original name - and still making a immutable variable.
+
+----------------------------------Data-Types-------------------------------
+
+EVERY VALUE IN RUST IS OF A CERTAIN DATA TYPE.
+
+There are two subsets of Rust data type: scalar and compound.
+
+Rust is a statically typed language. Rust must knows the types of all variables at compile time. Sometimes the compiler INFER the type based on the value and how we use it, but in cases where many types are possible, we must ANNOTATE the type of the variable.
+
+Scalar types:
+
+Represents a single value. Rust has four primary scalar types: integer, floating-point, boolean and character.
+
+Integers: 
+	u = Unsigned type
+	i = signed type
+
+	Rust have a range of integers from 8 to 128 bits, each of them can be signed or unsigned. So, we can have i8 or u8, i16 or u16, i32 or u32 and so on...
+
+Numbers that can have multiple types can be assigned with a suffix, like 80u8, for example.
+
+Floating-Point types:
+
+Rust has two primitive types for floating-point numbers (numbers with decimal points): f32 and f64. Both are signed types and f64 is the default.
+
+Compound types:
+
+Compound types can group multiple values into one type. Rust has two primitive compound types: tuple and arrays.
+
+A tuple is a unique value compound by a list of values. To use each value individually, associate the tuple to other variables in a tuple-like format (x, y, z), for example, or use the index of the values, associating it to another variable.
+
+An array must have all of its values of the SAME TYPE. Array have a FIXED LENGTH.
+
+Arrays store they values in the STACK, not in the HEAP.
+
+Arrays are also useful when you have FIXED length, i.e., when you know that the number of elements will not need to change.
+
+--------------------------FUNCTIONS------------------------------------------
+
+Rust code uses snake case as the conventional style for function and variable names. snake_case
+
+In function signatures, you MUST DECLARE the types of the parameters.
+
+In Rust, it is important to know the difference between STATEMENTS and EXPRESSIONS.
+
+	STATEMENTS: instructions that perform some action and do not return a value.
+
+	EXPRESSIONS: evaluate to a resulting value.
+
+Function with return values - it is neccessary to declare the type of the returned value after an arrow(->). In Rust,the return value is the value returned by the last expression in the block of the body of a funtion. It is possible to use return, but in majority of cases the return the last expression implicitly.
